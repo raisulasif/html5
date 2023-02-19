@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        label{
+            display: block;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <h2>Welcome to form chart</h2>
+    <label for="name"> Your Name
+        <input id="name" type="text" placeholder="Your Name">
+    </label>
+    
+    <label for="Email"> Your Email
+        <input id="Email" type="email" placeholder="Your Email">
+    </label>
+    <label for="Number"> Your Number
+        <input id="Number" type="number" placeholder="Your Number">
+    </label>
+    <fieldset>
+        <legend>pick one name </legend>
+        <label for="Mithasa">
+            <input type="radio" name="maiya" id="Mithasa">
+            Mithasa
+        </label>
+        <label for="Shiram">
+            <input type="radio" name="maiya" id="Shiram">
+            Shiram
+        </label>
+        <label for="Junior">
+            <input type="radio" name="maiya" id="Junior">
+            Junior
+        </label>
+    </fieldset>
+    <fieldset>
+        <legend> select one or more option in maiya</legend>
+        <label for="sundori">
+            <input type="checkbox" name="option" id="sundori">
+            sundori
+        </label>
+        <label for="Modkhor">
+            <input type="checkbox" name="option" id="Modkhor">
+            Modkhor
+        </label>
+        <label for="gajakhor">
+            <input type="checkbox" name="option" id="gajakhor">
+            gajakhor
+        </label>
+        <label for="londabaz">
+            <input type="checkbox" name="option" id="londabaz">
+            londabaz
+        </label>
+    </fieldset>
+    <fieldset>
+        <legend>special requirment</legend>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+    </fieldset>
+    <input type="reset" value="Reset">
+    <input type="submit" value="submit">
+    </form>
+    
+</body>
+</html>
